@@ -223,3 +223,41 @@ a:hover {
   flex-direction: column;
   margin-top: 30px;
 }
+
+/* About Page */
+.about-title {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 110px;
+}
+
+@media (max-width: 1199px) {
+  .about-title {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 580px) {
+  .about-title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 440px) {
+  .about-title {
+    font-size: 56px;
+  }
+}
+
+.about-container {
+  font-weight: 300;
+  font-size: 18px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+.profile-picture {
+  height: 468px;
+  width: 460px;
+}
+
